@@ -1,12 +1,17 @@
 ---
 layout: page
-title: project 2
+title: GNN for Traffic Prediction
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
+
+
+To Do:
+در اینجا نحوه بکارگیری شبکه‌های عصبی گراف برای پیش‌بینی ترافیک شهری بیان خواهد شد.
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

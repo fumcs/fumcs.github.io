@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Data Augmentation for Fire Detection
+description: How to use Style Tranfer for Data Augmentation in a Fire Detection System
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
 importance: 3
 category: work
+related_publications: ST_for_DA_2022
 ---
 
 Every project has a beautiful feature showcase page.

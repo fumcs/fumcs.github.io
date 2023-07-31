@@ -1,11 +1,18 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Using GITBOOK
+description: How to use gitbook for hosting our docs
 img: assets/img/1.jpg
 importance: 3
 category: fun
 ---
+
+To Do:
+
+ در اینجا نحوه کار با گیت‌بوک و نتیجه کار در سایت زیر بیان خواهد شد:
+
+https://cs-um.gitbook.io/curr/
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

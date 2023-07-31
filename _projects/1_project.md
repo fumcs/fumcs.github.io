@@ -1,12 +1,19 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Bike Dataset for TGNN
+description: How to transform Tabular data to PyG-Temporal
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: GCN-JAC2021
 ---
+
+To Do:
+
+در اینجا نحوه تبدیل داده‌های جدولی به صورتی  که در 
+Pytorch Geometric Temporal
+قابل لود کردن باشه
+به همراه یک مثال بیان خواهد شد
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

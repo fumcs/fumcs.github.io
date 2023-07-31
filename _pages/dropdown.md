@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+title: Poeples
 nav: true
 nav_order: 6
 dropdown: true

@@ -1,11 +1,18 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Just The Class
+description: How to use Just The Class for your courses
 img:
 importance: 4
 category: fun
 ---
+
+To Do:
+
+در اینجا نحوه استفاده از 
+Just the class
+و خروجی نمونه بیان خواهد شد.
+https://fum-cs.github.io/cs-bsc-dm/
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

@@ -1,11 +1,17 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Documentation of Computer Science Program
+description: How the Computer Science Program is documented?
 img:
 importance: 3
 category: fun
 ---
+
+To Do:
+
+در اینجا نحوه متن‌کاوی فایل برنامه درسی و قرار دادن آن در سایت زیر بیان خواهد شد.
+http://cs-um.github.io/docs/
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
