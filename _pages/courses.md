@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /courses/
-title: courses
+title: Courses
 description: Courses taught in CS Dept.
 nav: true
 nav_order: 5

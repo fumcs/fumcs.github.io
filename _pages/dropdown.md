@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Poeples
+title: Peoples
 nav: true
 nav_order: 6
 dropdown: true

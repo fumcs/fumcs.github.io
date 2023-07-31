@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Repositories related to people of CS Dept.
 nav: true
 nav_order: 3
