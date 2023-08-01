@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-The Department of Computer Science at Ferdowsi University of Mashhad was established in 2019 and offers undergraduate and graduate programs in various fields of computer science. The website of the department showcases the projects and publications of the faculty members and students. 
+The Department of Computer Science at Ferdowsi University of Mashhad was established in 2019 and offers undergraduate program in computer science. The website of the department showcases the [publications](/publications/) and [projects](/projects/) of the faculty members and students. 
 The Department of Computer Science at Ferdowsi University of Mashhad covers various research topics in computer science, such as image processing, computer vision, data science, combinatorial optimization,time tabling, deep learning and graph neural networks. These topics are reflected in the [publications page](/publications/), [projects](/projects/), and  [the blog](/blog/), that can be found on this website.
 
 <!-- The students are also involved in different activities, such as managing the website. One of the research interests of the department is graph neural networks, which are powerful tools for learning from graph-structured data.
