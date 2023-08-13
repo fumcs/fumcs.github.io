@@ -5,9 +5,11 @@ description: How to use Style Tranfer for Data Augmentation in a Fire Detection 
 img: assets/img/7.jpg
 # redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
 importance: 3
-category: work
+# category: work
 related_publications: ST_for_DA_2022
 img: /assets/img/ST_for_DA_2022/day2night-img67.jpg
+tags: DL, GAN
+categories: Deep-Learning
 ---
 
 Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection
