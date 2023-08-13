@@ -8,24 +8,36 @@ importance: 3
 # category: work
 related_publications: ST_for_DA_2022
 img: /assets/img/ST_for_DA_2022/day2night-img67.jpg
-tags: DL, GAN
+tags: work
 categories: Deep-Learning
 ---
 
-Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection
+Style transfer is a technique that allows you to change the appearance of an image by applying the style of another image. For example, you can make a photo look like a painting by transferring the style of a famous artist. Style transfer is usually done by using neural networks or deep learning, which can learn the features and patterns of different images and blend them together. Style transfer can be used for various purposes, such as creating digital art, enhancing photos, or generating new images.
+The following image show an instance of style transfer. Other instances could be accesible from [our repository](https://github.com/mamintoosi/MMM-Artistic-photoes).
 
-Adequate training data is essential in all supervised learning methods, including deep learning and machine vision. One of the approaches used to increase the number of training examples in deep learning is the "data augmentation" method. This method involves rotation transformation, transitions, and cropping on training images, which leads to an increase in the number of samples, which are different from training data. In this paper, the "style transfer" algorithm is used to increase the number of training samples. The goal in style transfer is to apply the appearance or visual style of one image to another image. In this paper, this method is used to produce new training examples and as an application, the proposed method is applied to the problem of fire detection. Assuming that the training images recorded during the night are less than the samples taken during the day, by applying a style transfer method, the images of the day are converted into night images and added to the data set as training data. The test results show the efficiency of the proposed data augmentation method. On average, the correct detection rate has increased by 7%.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/blob/main/images/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-For more details please see the [Github of the work](https://github.com/mamintoosi/ST-for-DA-in-FD)
+Unleashing the power of style transfer to enhance fire Detection is done  and published in a paper entitled by "Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection".
 
-Some day light images that transformed to night:
+Abstract:
+
+ In realm of deep learning, the availability of robust training data is paramount. To overcome the scarcity of training samples, we delve into the realm of "data augmentation" techniques. Within this study, we harness the transformative capabilities of the "style transfer" algorithm, which enables the transfer of visual styles from daytime to nighttime images. By leveraging this approach, we augment our training dataset for fire detection, where nighttime samples are limited. The experimental results demonstrate a notable 7% increase in the correct detection rate, affirming the efficacy of our data augmentation method. For comprehensive insights, please consult the corresponding [Github repository](https://github.com/mamintoosi/ST-for-DA-in-FD).
+
+Some daytime images that transfered to nighttime:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/raw/main/images/day2night/img%20(67).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/blob/main/images/day2night/pic%20(110).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
-
+<!-- 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -78,4 +90,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
