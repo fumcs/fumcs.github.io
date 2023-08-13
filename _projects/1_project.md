@@ -1,88 +1,27 @@
 ---
 layout: page
-title: Bike Dataset for TGNN
-description: How to transform Tabular data to PyG-Temporal
-img: assets/img/12.jpg
+title: Combinatorial optimization
+description: Combinatorial optimization as a major domain of CS
+img: assets/img/CO.png
 importance: 1
 category: work
-related_publications: GCN-JAC2021
+related_publications: ModifiedGA-iranaict99, Ezzati99, Monsefi02agenetic, Amintoosi04fuzzy, Amintoosi04using
 ---
 
-To Do:
+Combinatorial optimization is a field within computer science that focuses on finding the optimal solution among a finite set of possibilities. It involves solving complex problems by determining the best combination of variables to achieve an objective. Some examples of combinatorial optimization problems include:
 
-در اینجا نحوه تبدیل داده‌های جدولی به صورتی  که در 
-Pytorch Geometric Temporal
-قابل لود کردن باشه
-به همراه یک مثال بیان خواهد شد
+- Time tabling: In this problem, the goal is to create an optimal schedule for activities, taking into consideration constraints such as available resources, time slots, and preferences. This is commonly used in school timetables, conference schedules, or employee shift planning.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+- Cutting stock problem: This problem involves finding the best way to cut raw materials into smaller pieces to minimize waste. It is often applied in industries such as paper production, where large rolls of paper need to be cut into smaller sizes with minimal leftover scrap.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- N-queen problem: In this problem, the task is to place N queens on an N×N chessboard such that no two queens can attack each other. It is a classic example of a combinatorial optimization problem and has applications in chess game programming and layout design.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- Cutting and packing problems: These problems involve finding the most efficient way to cut or pack objects into specific shapes or containers. This is commonly used in logistics and manufacturing industries to optimize the use of space, minimize shipping costs, or maximize loading capacity.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Facility location problems: In this problem, the objective is to determine the optimal location for new facilities based on factors such as distance to customers, transportation costs, and capacity requirements. It has applications in urban planning, supply chain management, and network design.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+- Graph matching: Graph matching problems involve finding the optimal correspondence or alignment between two or more graphs. This is often applied in image recognition, pattern recognition, or DNA sequence alignment.
 
+These examples highlight the broad range of applications and complexity involved in combinatorial optimization, making it an important area of study within computer science.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The [Optimization Lab](https://umoplab.github.io/) at Math Faculty and many publications of the members are related to this topic.
