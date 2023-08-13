@@ -7,7 +7,7 @@ img: assets/img/7.jpg
 importance: 3
 category: work
 related_publications: ST_for_DA_2022
-img: /assets/img/day2night-img67.jpg
+img: /assets/img/ST_for_DA_2022/day2night-img67.jpg
 ---
 
 Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection
@@ -15,6 +15,15 @@ Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to
 Adequate training data is essential in all supervised learning methods, including deep learning and machine vision. One of the approaches used to increase the number of training examples in deep learning is the "data augmentation" method. This method involves rotation transformation, transitions, and cropping on training images, which leads to an increase in the number of samples, which are different from training data. In this paper, the "style transfer" algorithm is used to increase the number of training samples. The goal in style transfer is to apply the appearance or visual style of one image to another image. In this paper, this method is used to produce new training examples and as an application, the proposed method is applied to the problem of fire detection. Assuming that the training images recorded during the night are less than the samples taken during the day, by applying a style transfer method, the images of the day are converted into night images and added to the data set as training data. The test results show the efficiency of the proposed data augmentation method. On average, the correct detection rate has increased by 7%.
 
 For more details please see the [Github of the work](https://github.com/mamintoosi/ST-for-DA-in-FD)
+
+Some day light images that transformed to night:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/raw/main/images/day2night/img%20(67).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -28,11 +37,6 @@ For more details please see the [Github of the work](https://github.com/mamintoo
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
