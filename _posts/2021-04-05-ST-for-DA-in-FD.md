@@ -5,10 +5,10 @@ description: How to use Style Tranfer for Data Augmentation in a Fire Detection 
 img: assets/img/7.jpg
 # redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
 importance: 3
-category: work
+category: research
 related_publications: ST_for_DA_2022
 img: /assets/img/ST_for_DA_2022/day2night-img67.jpg
-tags: Deep-Learning
+tags: DL, GAN
 ---
 
 Style transfer is a technique that allows you to change the appearance of an image by applying the style of another image. For example, you can make a photo look like a painting by transferring the style of a famous artist. Style transfer is usually done by using neural networks or deep learning, which can learn the features and patterns of different images and blend them together. Style transfer can be used for various purposes, such as creating digital art, enhancing photos, or generating new images.

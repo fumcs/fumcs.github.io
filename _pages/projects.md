@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: /projects/
-description: A growing collection of our cool projects.
+description: A growing collection of our cool reserch projects.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
+
+Research at the Department of Computer Science is classified into some broad themes:
 
 <!-- pages/projects.md -->
 <div class="projects">
