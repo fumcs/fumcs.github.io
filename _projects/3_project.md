@@ -3,28 +3,21 @@ layout: page
 title: Data Augmentation for Fire Detection
 description: How to use Style Tranfer for Data Augmentation in a Fire Detection System
 img: assets/img/7.jpg
-redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
+# redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
 importance: 3
 category: work
 related_publications: ST_for_DA_2022
+img: /assets/img/day2night-img67.jpg
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Adequate training data is essential in all supervised learning methods, including deep learning and machine vision. One of the approaches used to increase the number of training examples in deep learning is the "data augmentation" method. This method involves rotation transformation, transitions, and cropping on training images, which leads to an increase in the number of samples, which are different from training data. In this paper, the "style transfer" algorithm is used to increase the number of training samples. The goal in style transfer is to apply the appearance or visual style of one image to another image. In this paper, this method is used to produce new training examples and as an application, the proposed method is applied to the problem of fire detection. Assuming that the training images recorded during the night are less than the samples taken during the day, by applying a style transfer method, the images of the day are converted into night images and added to the data set as training data. The test results show the efficiency of the proposed data augmentation method. On average, the correct detection rate has increased by 7%.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+For more details please see the [Github of the work](https://github.com/mamintoosi/ST-for-DA-in-FD)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
