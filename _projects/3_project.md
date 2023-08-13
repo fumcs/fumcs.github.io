@@ -1,92 +1,22 @@
 ---
 layout: page
-title: Data Augmentation for Fire Detection
-description: How to use Style Tranfer for Data Augmentation in a Fire Detection System
-img: assets/img/7.jpg
-# redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
+title: Deep Learning
+description: Neural Networks and Deep Learning
+img: assets/img/tree.jpg
 importance: 3
 category: work
-related_publications: ST_for_DA_2022
-img: /assets/img/ST_for_DA_2022/day2night-img67.jpg
+related_publications: ST_for_DA_2022, FC2FC_2022, Farhadi2022, Reg-OBD-Corona-Detection, GCN-JAC2021, Farhadi2019, Monsefi02agenetic
 tags: Deep-Learning
 ---
 
-Style transfer is a technique that allows you to change the appearance of an image by applying the style of another image. For example, you can make a photo look like a painting by transferring the style of a famous artist. Style transfer is usually done by using neural networks or deep learning, which can learn the features and patterns of different images and blend them together. Style transfer can be used for various purposes, such as creating digital art, enhancing photos, or generating new images.
-The following image show an instance of style transfer. Other instances could be accesible from [our repository](https://github.com/mamintoosi/MMM-Artistic-photoes).
+Deep learning is a subfield of artificial intelligence (AI) that focuses on training artificial neural networks to learn and make predictions from large amounts of data. It involves the use of multiple layers of interconnected units, known as artificial neurons, to mimic the complex workings of the human brain. Deep learning algorithms have been widely successful in solving a variety of challenging tasks in computer vision, natural language processing, and speech recognition. The following are some popular examples of deep learning techniques:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/blob/main/images/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+- Generative Adversarial Networks (GAN): GANs consist of two neural networks that work together. One network called the generator, creates new data instances that resemble the training data, while the other network called the discriminator, tries to correctly classify whether the generated data is real or fake. By competing against each other, GANs have demonstrated remarkable capabilities in generating realistic images, music, and texts.
 
-Unleashing the power of style transfer to enhance fire detection is done  and published in a paper entitled by "Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection".
+- Object Detection: Deep learning has substantially improved object detection systems by allowing automatic identification and localization of objects within images or videos. Techniques such as region-based convolutional neural networks (RCNN), You Only Look Once (YOLO), and Single Shot MultiBox Detector (SSD) employ deep neural networks to accurately detect and classify objects in real-time.
 
-Abstract:
+- Natural Language Processing (NLP): Deep learning has revolutionized NLP tasks such as machine translation, sentiment analysis, and question answering. Recurrent neural networks (RNNs) and transformers, a type of deep learning architecture, have enabled machines to understand and generate natural language by capturing contextual information and long-term dependencies in text.
 
- In realm of deep learning, the availability of robust training data is paramount. To overcome the scarcity of training samples, we delve into the realm of "data augmentation" techniques. Within this study, we harness the transformative capabilities of the "style transfer" algorithm, which enables the transfer of visual styles from daytime to nighttime images. By leveraging this approach, we augment our training dataset for fire detection, where nighttime samples are limited. The experimental results demonstrate a notable 7% increase in the correct detection rate, affirming the efficacy of our data augmentation method. For comprehensive insights, please consult the corresponding [Github repository](https://github.com/mamintoosi/ST-for-DA-in-FD).
+- Speech Recognition: Deep learning-based models like recurrent neural networks, particularly long short-term memory (LSTM), have significantly advanced automatic speech recognition systems. With the power of deep learning, speech recognition technology has become more accurate, enabling applications like voice assistants, transcription services, and real-time language translation.
 
-Some daytime images that transfered to nighttime:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/raw/main/images/day2night/img%20(67).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/blob/main/images/day2night/pic%20(110).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<!-- 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %} -->
+Deep learning continues to play a transformative role in computer science, enabling computers to perform intricate tasks that were previously considered challenging for machines. As research and advancements in deep learning continue to progress, the scope for its applications in various domains is expanding, leading to significant breakthroughs in AI.
