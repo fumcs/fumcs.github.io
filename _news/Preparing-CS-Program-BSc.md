@@ -1,15 +1,12 @@
 ---
 layout: post
-title: Curriculum for the Bachelor of Computer Science
+title: New computer science program launched :sparkles: 
 date: 2023-07-07 16:11:00-0400
 inline: false
-related_posts: true
+related_posts: false
 ---
 
-The proposed curriculum for the Bachelor of Computer Science course has been prepared.
-***
-
-A curriculum for the bachelor’s degree in computer science has been prepared. The purpose is to inform the students and faculty about the new program. The curriculum was developed after considering various programs from different universities and holding several meetings with the experts and faculty members. The curriculum covers the core topics and skills that are essential for computer science graduates in the current and future market.
+We are happy to announce that we have prepared a new curriculum for the bachelor’s degree in computer science. This is to inform the students and faculty about the features and benefits of the new program. The curriculum was designed after reviewing various programs from different universities and consulting with the experts and faculty members. The curriculum includes the core topics and skills that are vital for computer science graduates in the current and future market.
 
 The prepared curriculum is available for viewing at the following web addresses: 
 #### In Persian:
