@@ -9,7 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-Research at the Department of Computer Science is classified into some broad themes:
+Research at the Department of Computer Science is classified into some following broad themes. In addition some related fun works are done that is reported here :)
 
 <!-- pages/projects.md -->
 <div class="projects">

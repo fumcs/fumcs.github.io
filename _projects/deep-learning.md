@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ANN and Deep Learning
+title: NN and Deep Learning
 description: Neural Networks and Deep Learning
 img: assets/img/tree.jpg
 importance: 3
