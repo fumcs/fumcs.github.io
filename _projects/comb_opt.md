@@ -2,7 +2,7 @@
 layout: page
 title: Combinatorial optimization
 description: Combinatorial optimization as a major domain of CS
-img: assets/img/tiling.jpg
+img: assets/img/tiling.png
 importance: 1
 category: work
 related_publications: ModifiedGA-iranaict99, Ezzati99, Monsefi02agenetic, Amintoosi04fuzzy, Amintoosi04using, Amintoosi05feature, Amintoosi07using, Amintoosi07afishschool,Monsefi00agenetic, Amintoosi79-NP-Hard,Amintoosi04optimum
