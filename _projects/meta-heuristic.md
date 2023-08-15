@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meta-Heuristic Algorithms
-description: Meta-Heuristic Algorithms, A Powerful Approach for Optimization Problems
+description: A Powerful Approach for Optimization Problems
 img: assets/img/meta.png
 importance: 5
 category: work
