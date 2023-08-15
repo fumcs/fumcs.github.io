@@ -34,10 +34,10 @@ Some daytime images that transfered to nighttime:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/raw/main/images/day2night/img%20(67).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ST_for_DA_2022/img (31).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/blob/main/images/day2night/pic%20(110).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ST_for_DA_2022/img (35).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
