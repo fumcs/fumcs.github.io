@@ -8,7 +8,7 @@ importance: 3
 category: research
 related_publications: ST_for_DA_2022
 img: /assets/img/ST_for_DA_2022/day2night-img67.jpg
-date: 2022-11-05
+date: 2022-12-05
 tags: DL, GAN
 ---
 
@@ -29,6 +29,6 @@ Abstract:
 
 Some daytime images that transfered to nighttime using a night image (middle):
 <table  align="center" border="1">
-<tr><td> <img src="assets/img/ST_for_DA_2022/img (31).jpg" width="700"> </td></tr>
-<tr><td> <img src="assets/img/ST_for_DA_2022/img (35).jpg" width="700"> </td></tr>
+<tr><td> <img src="assets/img/ST_for_DA_2022/img31.jpg" width="700"> </td></tr>
+<tr><td> <img src="assets/img/ST_for_DA_2022/img35.jpg" width="700"> </td></tr>
 </table>
