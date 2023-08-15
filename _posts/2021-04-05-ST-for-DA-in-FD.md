@@ -16,7 +16,7 @@ The following image show an instance of style transfer. Other instances could be
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/mamintoosi/ST-for-DA-in-FD/blob/main/images/fox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ST_for_DA_2022/fox2_feathers.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
