@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Graphs, A Powerful Tool for CS
+title: Graphs, A Powerful Tool
 description: Graphs, A Powerful Tool for Computer Science
 img: assets/img/bio-graph.jpg
 importance: 4
