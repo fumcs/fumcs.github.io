@@ -27,7 +27,7 @@ Abstract:
 
  In realm of deep learning, the availability of robust training data is paramount. To overcome the scarcity of training samples, we delve into the realm of "data augmentation" techniques. Within this study, we harness the transformative capabilities of the "style transfer" algorithm, which enables the transfer of visual styles from daytime to nighttime images. By leveraging this approach, we augment our training dataset for fire detection, where nighttime samples are limited. The experimental results demonstrate a notable 7% increase in the correct detection rate, affirming the efficacy of our data augmentation method. For comprehensive insights, please consult the corresponding [Github repository](https://github.com/mamintoosi/ST-for-DA-in-FD).
 
-Some daytime images that transfered to nighttime:
+Some daytime images that transfered to nighttime using a night image (middle):
 <table  align="center" border="1">
 <tr><td> <img src="assets/img/ST_for_DA_2022/img (31).jpg" width="700"> </td></tr>
 <tr><td> <img src="assets/img/ST_for_DA_2022/img (35).jpg" width="700"> </td></tr>
