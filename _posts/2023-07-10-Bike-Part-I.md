@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: distill
 title: Bike Rental System, Part I
 description: Introduction to Bike Rental Platforms, Datasets and Methods
 tags: distill formatting
