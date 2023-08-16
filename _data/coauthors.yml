@@ -10,6 +10,22 @@
   - firstname: ["محمود", "م.", "م"]
     url: https://mamintoosi.github.io/
 
+"Sadoghi":
+  - firstname: ["Hadi", "H.", "H"]
+    url: https://scholar.google.com/citations?hl=en&user=Z3XAKb0AAAAJ&view_op=list_works&sortby=pubdate
+
+"SadoghiYazdi":
+  - firstname: ["Hadi", "H.", "H"]
+    url: https://scholar.google.com/citations?hl=en&user=Z3XAKb0AAAAJ&view_op=list_works&sortby=pubdate
+
+"صدوقی":
+  - firstname: ["هادی", "ه.", "ه"]
+    url: https://scholar.google.com/citations?hl=en&user=Z3XAKb0AAAAJ&view_op=list_works&sortby=pubdate
+
+"صدوقی‌یزدی":
+  - firstname: ["هادی", "ه.", "ه"]
+    url: https://scholar.google.com/citations?hl=en&user=Z3XAKb0AAAAJ&view_op=list_works&sortby=pubdate
+
 "Tabasi":
   - firstname: ["Hashem", "H."]
     url: https://prof.um.ac.ir/hashemtabasi

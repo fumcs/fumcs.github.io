@@ -1,13 +1,28 @@
 ---
 layout: distill
-title: Rental Bike Project
-description: GNN on bikeshare datasets
+title: Rental Bike, Part II
+description: Exploratory Data Analysis
 tags: distill formatting
 giscus_comments: true
-date: 2023-08-15
+date: 2023-08-10
 featured: true
+authors:
+  - name: Pegah MottahariNejad
+    url: ""
+    affiliations:
+      name: FUM, CS Student
+  - name: Ehsan Hosseini
+    url: ""
+    affiliations:
+      name: FUM, CS Student
+  - name: Mahmood Amintoosi
+    url: "https://mamintoosi.github.io/"
+    affiliations:
+      name: FUM, CS Faculty
+
+
 ---
-# Rental Bike Project
+# Rental Bike 
 
 ## Problem Definition
 
@@ -22,29 +37,37 @@ To effectively manage and optimize the bike sharing system, it is essential to h
 - Importing the necessary libraries & packages
 - Loading data
 - Data representation
+
 ##### 2-Exploratory Data Analysis (EDA)
 - Data visualization
 - Trends
 - Data analysis
+
 ##### 3-Data Preprocessing
 - Outlier analysis
 - Data cleaning
 - Feature scaling 
+
 ##### 4-Graph Creation
 - Node features
 - Edge creation
 - Static & dynamic edges
 - Graph creation
+
 ##### 5-Train & Test Split 
+
 ##### 6-Optimization
 - Dimensionality reduction
 - hyperparameter optimization
+
 ##### 7-Model Development
 ##### 8-Cross Validation Prediction
 ##### 9-Models Performances
 - Optimization impacts on models
 - Models comparison
+
 ##### 10-Model Evaluation Metrics
+
 ##### 11-Conclusion 
 
 
