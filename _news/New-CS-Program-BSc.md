@@ -10,7 +10,7 @@ We are happy to announce that we have prepared a new curriculum for the bachelor
 
 This is to inform the students and faculty about the features and benefits of the new program. The curriculum was designed after reviewing various programs from different universities and consulting with the experts and faculty members. The curriculum includes the core topics and skills that are vital for computer science graduates in the current and future market.
 
-The prepared curriculum is available for viewing at the following web addresses: 
+The prepared curriculum is available at the following web addresses: 
 ##### In Persian:
 <ul>
     <li><a href="http://cs-um.github.io/docs"> http://cs-um.github.io/docs/</a> </li>
