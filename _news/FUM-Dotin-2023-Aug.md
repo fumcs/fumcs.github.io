@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Session between Faculty of Mathemathical Sciences and Dotin Company
-date: 2023-08-16 10:00:00-1200
+date: 2023-08-16 10:00:00-0400
 inline: false
 related_posts: false
 ---
