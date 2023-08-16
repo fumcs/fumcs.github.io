@@ -5,18 +5,17 @@ description: Introduction to Bike Rental Platforms, Datasets and Methods
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: GCN-JAC2021
 
 authors:
-  - name: Mahmood Amintoosi
+  - name: M. Amintoosi
     url: "https://mamintoosi.github.io/"
     affiliations:
       name: FUM, CS Faculty
-  - name: Pegah MottahariNejad
+  - name: P. MottahariNejad
     url: ""
     affiliations:
       name: FUM, CS Student
-  - name: Ehsan Hosseini
+  - name: E. Hosseini
     url: ""
     affiliations:
       name: FUM, CS Student
@@ -50,11 +49,12 @@ It is related to [Converting a Tabular Dataset to a Temporal Graph Dataset](http
 
 
 ## Graph Neural Networks and Temporal Graph Neural Networks
+
 Graph Neural Networks (GNNs) have gained significant attention in various domains due to their ability to model and extract information from graph-structured data. In the context of bike rental systems, GNNs offer a promising approach to capture the complex relationships between bike stations, users, and other relevant entities.
 
 GNNs allow us to represent the bike rental system as a graph, with bike stations as nodes and rental patterns as edges. By incorporating graph convolutions, GNNs can aggregate and propagate information across the network, enabling us to make predictions and draw insights.
 
-## Temporal Graph Neural Networks (TGNs) extend the capabilities of GNNs by considering temporal dynamics within the graph. As bike rentals exhibit temporal dependencies, TGNs enable us to capture the change in user behavior over time, improve prediction accuracy, and better understand long-term trends.
+Temporal Graph Neural Networks (TGNs) extend the capabilities of GNNs by considering temporal dynamics within the graph. As bike rentals exhibit temporal dependencies, TGNs enable us to capture the change in user behavior over time, improve prediction accuracy, and better understand long-term trends.
 
 Utilizing GNNs and TGNs, we can harness the power of graph-based modeling to tackle challenges such as demand prediction, anomaly detection, and recommendation systems within the Bike Rental software system.
 
@@ -65,11 +65,11 @@ In Part II of this series, we will dive into the process of transforming tabular
 
 Other parts of these series (under construction):
 
-Part II: [How to transform Tabular data to PyG-Temporal for some bike data sets](#)
-Part III: [Exploratory Data Analysis on Bike Rental dataset]()
-Part IV: [Machine learning on Bike rental dataset]()
+- Part II: [How to transform Tabular data to PyG-Temporal for some bike data sets](#)
+- Part III: [Exploratory Data Analysis on Bike Rental dataset]()
+- Part IV: [Machine learning on Bike rental dataset]()
 
 ## References:
-Bike Sharing Dataset. (2018). Retrieved from https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
-Hamilton, W., Ying, Z., & Leskovec, J. (2017). Inductive representation learning on large graphs. In Advances in Neural Information Processing Systems (pp. 1025-1035).
-Su, J., Vargas, D. V., & Sakurai, K. (2019). A survey on heterogeneous data mining: from unstructured data to graphs. ACM SIGKDD Explorations Newsletter, 20(2), 5-23.
+- Bike Sharing Dataset. (2018). Retrieved from https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
+- Hamilton, W., Ying, Z., & Leskovec, J. (2017). Inductive representation learning on large graphs. In Advances in Neural Information Processing Systems (pp. 1025-1035).
+- Su, J., Vargas, D. V., & Sakurai, K. (2019). A survey on heterogeneous data mining: from unstructured data to graphs. ACM SIGKDD Explorations Newsletter, 20(2), 5-23.

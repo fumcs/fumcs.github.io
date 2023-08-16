@@ -1,21 +1,21 @@
 ---
 layout: distill
-title: Rental Bike, Part II
+title: Rental Bike, Part III
 description: Exploratory Data Analysis
 tags: distill formatting
 giscus_comments: true
-date: 2023-08-10
+date: 2023-08-15
 featured: true
 authors:
-  - name: Pegah MottahariNejad
+  - name: P. MottahariNejad
     url: ""
     affiliations:
       name: FUM, CS Student
-  - name: Ehsan Hosseini
+  - name: E. Hosseini
     url: ""
     affiliations:
       name: FUM, CS Student
-  - name: Mahmood Amintoosi
+  - name: M. Amintoosi
     url: "https://mamintoosi.github.io/"
     affiliations:
       name: FUM, CS Faculty
