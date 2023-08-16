@@ -1,12 +1,11 @@
 ---
 layout: distill
-title: Rental Bike, Part II
+title: Bike Rental System, Part II
 description: Transforming Tabular data to PyG-Temporal dataset format
 tags: distill formatting
 giscus_comments: true
 date: 2023-08-10
 featured: true
-
 authors:
   - name: P. MottahariNejad
     url: ""

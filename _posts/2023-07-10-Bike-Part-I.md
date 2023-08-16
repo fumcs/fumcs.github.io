@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Rental Bike, Part I
+title: Bike Rental System, Part I
 description: Introduction to Bike Rental Platforms, Datasets and Methods
-img: assets/img/12.jpg
-importance: 1
-category: work
-
+tags: distill formatting
+giscus_comments: true
+date: 2023-07-10
+featured: true
 authors:
   - name: M. Amintoosi
     url: "https://mamintoosi.github.io/"

@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Rental Bike, Part III
+title: Bike Rental System, Part III
 description: Exploratory Data Analysis
 tags: distill formatting
 giscus_comments: true
