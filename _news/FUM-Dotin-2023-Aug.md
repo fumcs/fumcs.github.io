@@ -6,6 +6,6 @@ inline: false
 related_posts: false
 ---
 
-# Ferdowsi University of Mashhad and Dotin Company hold a brainstorming session on industry-university collaboration
+### Ferdowsi University of Mashhad and Dotin Company hold a brainstorming session on industry-university collaboration
 
 A brainstorming session on industry-university collaboration between the members of the Faculty of Mathematical Sciences of Ferdowsi University of Mashhad and [Dotin Company](https://www.dotin.ir/), (a subsidiary of [FANAP](https://fanap.ir/)) was held at the Dotin Company's premises. The participants discussed topics related to how to increase the interaction between FANAP's affiliated companies and the Faculty of Mathematical Sciences. The session aimed to identify the needs and challenges of both sides and explore the potential areas of cooperation and synergy. The representatives of Dotin Company expressed their interest in benefiting from the expertise and research capabilities of the faculty members and students in various fields such as data science, artificial intelligence and optimization. The faculty members also expressed their willingness to collaborate with the company on applied projects and provide consultancy and training services. The session ended with an agreement to follow up on the discussed topics and establish a long-term partnership.
