@@ -39,7 +39,7 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 
 {% if notebook_exists == "true" %}
     {% assign selected_cell_number = 17 %}  <!-- Change this to the desired cell number -->
-    {% capture notebook_content %}{% include_relative assets/jupyter/blog.ipynb %}{% endcapture %}
+    {% capture notebook_content %}{% include_relative assets/jupyter/bikeshare_final.ipynb %}{% endcapture %}
     
     {% assign notebook_cells = notebook_content | split: "\n\n" %}
     
