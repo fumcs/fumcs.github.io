@@ -34,24 +34,17 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 
 ## Node features
 
+{::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/bikeshare_final.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists jupyter_path %}{% endcapture %}
-
+{% capture notebook_exists %}{% file_exists assets/jupyter/bikeshare_final.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
-    {% assign selected_cell_number = 17 %}  <!-- Change this to the desired cell number -->
-    {% capture notebook_content %}{% include_relative assets/jupyter/bikeshare_final.ipynb %}{% endcapture %}
-    
-    {% assign notebook_cells = notebook_content | split: "\n\n" %}
-    
-    {% if selected_cell_number >= 0 and selected_cell_number < notebook_cells.size %}
-        {% assign selected_cell = notebook_cells[selected_cell_number] %}
-        {{ selected_cell | jupyter_cell }}
-    {% else %}
-        <p>Selected cell number is out of range.</p>
-    {% endif %}
+    {% jupyter_notebook jupyter_path %}
+    {% jupyter_cell cell_index= 17 %}  <!-- Replace 0 with the index of the cell you want to display -->
 {% else %}
     <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
+{:/nomarkdown}
+
 
 
 
