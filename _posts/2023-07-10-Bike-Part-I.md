@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Bike Rental System, Part I
+title: Bike Rental System, Part I, Introduction
 description: Introduction to Bike Rental Platforms, Datasets and Methods
 tags: distill formatting
 giscus_comments: true

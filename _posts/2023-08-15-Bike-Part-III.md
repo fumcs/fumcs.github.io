@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Bike Rental System, Part II
+title: Bike Rental System, Part III, EDA
 description: Exploratory Data Analysis
 tags: distill formatting
 giscus_comments: true

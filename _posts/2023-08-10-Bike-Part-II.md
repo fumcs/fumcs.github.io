@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Bike Rental System, Part III
+title: Bike Rental System, Part II, PyG-Temporal dataset format
 description: Transforming Tabular data to PyG-Temporal dataset format
 tags: distill formatting
 giscus_comments: true
