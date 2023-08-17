@@ -49,7 +49,7 @@
           }
         ]
       }
-    }</script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Comp. Sci. </span>Dept. FUM</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About</a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Research</a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">Repositories</a> </li> <li class="nav-item "> <a class="nav-link" href="/courses/">Courses</a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Peoples</a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="/faculty/">Faculty</a> <div class="dropdown-divider"></div> <a class="dropdown-item" href="/publications/">Publications</a> <div class="dropdown-divider"></div> <a class="dropdown-item" href="/presentations/">Presentations</a> </div> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Bike Rental System, Part II, PyG-Temporal dataset format</h1> <p>Transforming Tabular data to PyG-Temporal dataset format</p> </d-title> <d-byline></d-byline> <d-article> <h1 id="graph-creation">Graph Creation</h1> <p>As previously discussed in the initial two sections, we possess two datasets requiring conversion into graphs subsequent to the Exploratory Data Analysis (EDA) phase. In the subsequent content, we will delve into the procedural steps of this particular stage.</p> <p>bikeshare and divvybikes</p> <figure> <picture> <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/GNN/f1-480.webp"></source> <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/GNN/f1-800.webp"></source> <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/GNN/f1-1400.webp"></source> <img src="/assets/img/GNN/f1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> <p>note:We need to create a new feature called “duration” for the DivvyBike dataset.</p> <h2 id="node-features">Node features</h2> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#considering the incoming <span class="err">&amp;</span> outgoing trips features of every node
+    }</script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Comp. Sci. </span>Dept. FUM</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About</a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Research</a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">Repositories</a> </li> <li class="nav-item "> <a class="nav-link" href="/courses/">Courses</a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Peoples</a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="/faculty/">Faculty</a> <div class="dropdown-divider"></div> <a class="dropdown-item" href="/publications/">Publications</a> <div class="dropdown-divider"></div> <a class="dropdown-item" href="/presentations/">Presentations</a> </div> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Bike Rental System, Part II, PyG-Temporal dataset format</h1> <p>Transforming Tabular data to PyG-Temporal dataset format</p> </d-title> <d-byline></d-byline> <d-article> <h1 id="graph-creation">Graph Creation</h1> <p>As previously discussed in the initial two sections, we possess two datasets requiring conversion into graphs subsequent to the Exploratory Data Analysis (EDA) phase. In the subsequent content, we will delve into the procedural steps of this particular stage.</p> <p>bikeshare and divvybikes</p> <figure> <picture> <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/GNN/f1-480.webp"></source> <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/GNN/f1-800.webp"></source> <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/GNN/f1-1400.webp"></source> <img src="/assets/img/GNN/f1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> <p>note:We need to create a new feature called “duration” for the DivvyBike dataset.</p> <h2 id="node-features">Node features</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#considering the incoming &amp; outgoing trips features of every node
 outgoing_trips = trips.groupby("start_station_id").count()["id"].values
 incoming_trips = trips.groupby("end_station_id").count()["id"].values
 
@@ -64,7 +64,7 @@ incoming_trips = (incoming_trips - np.min(incoming_trips)) / (np.max(incoming_tr
 node_features = np.stack([outgoing_trips, incoming_trips]).transpose()
 print("Full shape: ", node_features.shape)
 node_features[:10]
-</code></pre></div></div> <h2 id="edge-creation">Edge creation</h2> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>subset = ["start_lng", "start_lat", "start_station_id"]
+</code></pre></div></div> <h2 id="edge-creation">Edge creation</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>subset = ["start_lng", "start_lat", "start_station_id"]
 all_starts = trips.drop_duplicates(subset="start_station_id", keep="first")[subset]
 
 subset = ["end_lng", "end_lat", "end_station_id"]
@@ -73,15 +73,15 @@ distance_matrix = all_ends.merge(all_starts, how="cross")
 distance_matrix["distance"] = distance_matrix.apply(lambda x: geodesic((x["start_lat"], x["start_lng"]), 
                                                         (x["end_lat"], x["end_lng"])).meters, axis=1)
 #considering a specific treshhold
-distance_matrix["edge"] = distance_matrix["distance"] <span class="nt">&lt;</span> <span class="err">500</span>
-</code></pre></div></div> <h2 id="static--dynamic-edges">Static &amp; dynamic edges</h2> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>edge_index = distance_matrix[distance_matrix["edge"] == True][["start_station_id", "end_station_id"]].values
+distance_matrix["edge"] = distance_matrix["distance"] &lt; 500
+</code></pre></div></div> <h2 id="static--dynamic-edges">Static &amp; dynamic edges</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>edge_index = distance_matrix[distance_matrix["edge"] == True][["start_station_id", "end_station_id"]].values
 edge_index = edge_index.transpose()
 
 distance_feature = distance_matrix[distance_matrix["edge"] == True]["distance"].values
 edge_type_feature = np.zeros_like(distance_feature)
 trip_duration_feature = np.zeros_like(distance_feature)
 static_edge_features = np.stack([distance_feature, edge_type_feature, trip_duration_feature]).transpose()
-</code></pre></div></div> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def extract_dynamic_edges(s):
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def extract_dynamic_edges(s):
 
     trip_indices = s[["start_station_id", "end_station_id"]].values
     trip_durations = s["duration"]
@@ -95,7 +95,7 @@ static_edge_features = np.stack([distance_feature, edge_type_feature, trip_durat
     trip_duration_feature = trip_durations
     edge_features = np.stack([distance_feature, edge_type_feature, trip_duration_feature]).transpose()
     return edge_features, trip_indices.transpose()
-</code></pre></div></div> <h2 id="graph-creation-1">Graph creation</h2> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>start_date = datetime.strptime("2023-04-01 00:00:30", "%Y-%m-%d %H:%M:%S")
+</code></pre></div></div> <h2 id="graph-creation-1">Graph creation</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>start_date = datetime.strptime("2023-04-01 00:00:30", "%Y-%m-%d %H:%M:%S")
 end_date = datetime.strptime("2023-05-01 00:00:00", "%Y-%m-%d %H:%M:%S")
 
 interval = timedelta(minutes=60)
@@ -107,31 +107,31 @@ y_indices = []
 edge_features = []
 
 
-while start_date <span class="nt">&lt;</span><span class="err">=</span> <span class="na">end_date:</span>
-    <span class="na">#</span> <span class="err">0</span> <span class="na">-</span> <span class="err">60</span> <span class="na">min</span> 
-    <span class="na">current_snapshot = </span><span class="s">trips[((start_date</span> <span class="err">+</span> <span class="na">interval</span><span class="err">)</span> <span class="nt">&gt;</span>= trips["end_date"])
-                                <span class="err">&amp;</span> (start_date <span class="nt">&lt;</span><span class="err">=</span> <span class="na">trips</span><span class="err">["</span><span class="na">end_date</span><span class="err">"])]</span>
-    <span class="na">#</span> <span class="err">60</span> <span class="na">-</span> <span class="err">120</span> <span class="na">min</span>
-    <span class="na">subsequent_snapshot = </span><span class="s">trips[((start_date</span> <span class="err">+</span> <span class="err">2</span><span class="na">*interval</span><span class="err">)</span> <span class="nt">&gt;</span>= trips["end_date"])
-                                <span class="err">&amp;</span> (start_date + interval <span class="nt">&lt;</span><span class="err">=</span> <span class="na">trips</span><span class="err">["</span><span class="na">end_date</span><span class="err">"])]</span>
-    <span class="na">current_snapshot = </span><span class="s">current_snapshot.groupby(["start_station_id",</span> <span class="err">"</span><span class="na">end_station_id</span><span class="err">"]).</span><span class="na">mean</span><span class="err">().</span><span class="na">reset_index</span><span class="err">()</span>
-    <span class="na">subsequent_snapshot = </span><span class="s">subsequent_snapshot.groupby(["start_station_id",</span> <span class="err">"</span><span class="na">end_station_id</span><span class="err">"]).</span><span class="na">mean</span><span class="err">().</span><span class="na">reset_index</span><span class="err">()</span>
+while start_date &lt;= end_date:
+    # 0 - 60 min 
+    current_snapshot = trips[((start_date + interval) &gt;= trips["end_date"])
+                                &amp; (start_date &lt;= trips["end_date"])]
+    # 60 - 120 min
+    subsequent_snapshot = trips[((start_date + 2*interval) &gt;= trips["end_date"])
+                                &amp; (start_date + interval &lt;= trips["end_date"])]
+    current_snapshot = current_snapshot.groupby(["start_station_id", "end_station_id"]).mean().reset_index()
+    subsequent_snapshot = subsequent_snapshot.groupby(["start_station_id", "end_station_id"]).mean().reset_index()
 
-    <span class="na">edge_feats</span><span class="err">,</span> <span class="na">additional_edge_index = </span><span class="s">extract_dynamic_edges(current_snapshot)</span>
-    <span class="na">exteneded_edge_index = </span><span class="s">np.concatenate([edge_index,</span> <span class="na">additional_edge_index</span><span class="err">],</span> <span class="na">axis=</span><span class="s">1)</span>
-    <span class="na">extended_edge_feats = </span><span class="s">np.concatenate([edge_feats,</span> <span class="na">static_edge_features</span><span class="err">],</span> <span class="na">axis=</span><span class="s">0)</span>
+    edge_feats, additional_edge_index = extract_dynamic_edges(current_snapshot)
+    exteneded_edge_index = np.concatenate([edge_index, additional_edge_index], axis=1)
+    extended_edge_feats = np.concatenate([edge_feats, static_edge_features], axis=0)
 
-    <span class="na">y = </span><span class="s">subsequent_snapshot["duration"].values</span>
-    <span class="na">y_index = </span><span class="s">subsequent_snapshot[["start_station_id",</span> <span class="err">"</span><span class="na">end_station_id</span><span class="err">"]].</span><span class="na">values</span>
+    y = subsequent_snapshot["duration"].values
+    y_index = subsequent_snapshot[["start_station_id", "end_station_id"]].values
 
-    <span class="na">xs.append</span><span class="err">(</span><span class="na">node_features</span><span class="err">)</span>
-    <span class="na">edge_indices.append</span><span class="err">(</span><span class="na">exteneded_edge_index</span><span class="err">)</span> 
-    <span class="na">edge_features.append</span><span class="err">(</span><span class="na">extended_edge_feats</span><span class="err">)</span>
-    <span class="na">ys.append</span><span class="err">(</span><span class="na">y</span><span class="err">)</span> 
-    <span class="na">y_indices.append</span><span class="err">(</span><span class="na">y_index.transpose</span><span class="err">())</span> 
+    xs.append(node_features)
+    edge_indices.append(exteneded_edge_index) 
+    edge_features.append(extended_edge_feats)
+    ys.append(y) 
+    y_indices.append(y_index.transpose()) 
 
-    <span class="na">start_date</span> <span class="err">+=</span> <span class="na">interval</span>
-</code></pre></div></div> <p>Graph creation is an important step but before this cell we have to take some steps such as Edge creation, Static &amp; dynamic edges and etc.</p> <p>Now we create a dataset object for temporal signals defined on a dynamic graph.</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from torch_geometric_temporal.signal import DynamicGraphTemporalSignal
+    start_date += interval
+</code></pre></div></div> <p>Graph creation is an important step but before this cell we have to take some steps such as Edge creation, Static &amp; dynamic edges and etc.</p> <p>Now we create a dataset object for temporal signals defined on a dynamic graph.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from torch_geometric_temporal.signal import DynamicGraphTemporalSignal
 dataset = DynamicGraphTemporalSignal(
             edge_indices, edge_features, xs, ys, y_indices=y_indices
         )
