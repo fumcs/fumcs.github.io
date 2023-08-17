@@ -43,8 +43,8 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 ## Node features
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III\c2.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III\c2.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c2.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c2.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
