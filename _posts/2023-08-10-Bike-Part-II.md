@@ -35,7 +35,7 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 ## Node features
 
 {% raw %}
-```html
+```
 #considering the incoming & outgoing trips features of every node
 outgoing_trips = trips.groupby("start_station_id").count()["id"].values
 incoming_trips = trips.groupby("end_station_id").count()["id"].values
@@ -57,7 +57,7 @@ node_features[:10]
 ## Edge creation
 
 {% raw %}
-```html
+```
 subset = ["start_lng", "start_lat", "start_station_id"]
 all_starts = trips.drop_duplicates(subset="start_station_id", keep="first")[subset]
 
@@ -75,7 +75,7 @@ distance_matrix["edge"] = distance_matrix["distance"] < 500
 ## Static & dynamic edges
 
 {% raw %}
-```html
+```
 edge_index = distance_matrix[distance_matrix["edge"] == True][["start_station_id", "end_station_id"]].values
 edge_index = edge_index.transpose()
 
@@ -89,7 +89,7 @@ static_edge_features = np.stack([distance_feature, edge_type_feature, trip_durat
 
 
 {% raw %}
-```html
+```
 def extract_dynamic_edges(s):
 
     trip_indices = s[["start_station_id", "end_station_id"]].values
@@ -110,7 +110,7 @@ def extract_dynamic_edges(s):
 ## Graph creation
 
 {% raw %}
-```html
+```
 start_date = datetime.strptime("2023-04-01 00:00:30", "%Y-%m-%d %H:%M:%S")
 end_date = datetime.strptime("2023-05-01 00:00:00", "%Y-%m-%d %H:%M:%S")
 
@@ -159,7 +159,7 @@ Now we create a dataset object for temporal signals defined on a dynamic graph.
 
 {% raw %}
 
-```html
+```
 from torch_geometric_temporal.signal import DynamicGraphTemporalSignal
 dataset = DynamicGraphTemporalSignal(
             edge_indices, edge_features, xs, ys, y_indices=y_indices
