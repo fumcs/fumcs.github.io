@@ -28,131 +28,79 @@ As previously discussed in the initial two sections, we possess two datasets req
 
 bikeshare and divvybikes
 
-{% include figure.html path="assets/img/GNN/f1.png" class="img-fluid rounded z-depth-1" %}
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c1.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c1.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
 note:We need to create a new feature called "duration" for the DivvyBike dataset.
 
 ## Node features
 
-{% raw %}
-```python
-#considering the incoming & outgoing trips features of every node
-outgoing_trips = trips.groupby("start_station_id").count()["id"].values
-incoming_trips = trips.groupby("end_station_id").count()["id"].values
-
-all_station_ids = set(trips["start_station_id"].unique()) | set(trips["end_station_id"].unique())
-
-outgoing_trips = np.pad(outgoing_trips, (0, len(all_station_ids) - len(outgoing_trips)), mode='constant')
-incoming_trips = np.pad(incoming_trips, (0, len(all_station_ids) - len(incoming_trips)), mode='constant')
-
-outgoing_trips = (outgoing_trips - np.min(outgoing_trips)) / (np.max(outgoing_trips) - np.min(outgoing_trips))
-incoming_trips = (incoming_trips - np.min(incoming_trips)) / (np.max(incoming_trips) - np.min(incoming_trips))
-
-node_features = np.stack([outgoing_trips, incoming_trips]).transpose()
-print("Full shape: ", node_features.shape)
-node_features[:10]
-```
-{% endraw %}
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c2.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c2.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
 
 
 
 ## Edge creation
 
-{% raw %}
-```python
-subset = ["start_lng", "start_lat", "start_station_id"]
-all_starts = trips.drop_duplicates(subset="start_station_id", keep="first")[subset]
-
-subset = ["end_lng", "end_lat", "end_station_id"]
-all_ends = trips.drop_duplicates(subset="end_station_id", keep="first")[subset]
-distance_matrix = all_ends.merge(all_starts, how="cross")
-distance_matrix["distance"] = distance_matrix.apply(lambda x: geodesic((x["start_lat"], x["start_lng"]), 
-                                                        (x["end_lat"], x["end_lng"])).meters, axis=1)
-#considering a specific treshhold
-distance_matrix["edge"] = distance_matrix["distance"] < 500
-```
-{% endraw %}
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c3.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c3.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
 
 ## Static & dynamic edges
 
-{% raw %}
-```python
-edge_index = distance_matrix[distance_matrix["edge"] == True][["start_station_id", "end_station_id"]].values
-edge_index = edge_index.transpose()
-
-distance_feature = distance_matrix[distance_matrix["edge"] == True]["distance"].values
-edge_type_feature = np.zeros_like(distance_feature)
-trip_duration_feature = np.zeros_like(distance_feature)
-static_edge_features = np.stack([distance_feature, edge_type_feature, trip_duration_feature]).transpose()
-```
-{% endraw %}
-
-
-
-{% raw %}
-```python
-def extract_dynamic_edges(s):
-
-    trip_indices = s[["start_station_id", "end_station_id"]].values
-    trip_durations = s["duration"]
-
-
-    distance_feature  = pd.DataFrame(trip_indices, 
-                                    columns=["start_station_id", "end_station_id"]).merge(
-                                        distance_matrix, on=["start_station_id", "end_station_id"], 
-                                        how="left")["distance"].values
-    edge_type_feature = np.ones_like(distance_feature) 
-    trip_duration_feature = trip_durations
-    edge_features = np.stack([distance_feature, edge_type_feature, trip_duration_feature]).transpose()
-    return edge_features, trip_indices.transpose()
-```
-{% endraw %}
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c4.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c4.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
 ## Graph creation
 
-{% raw %}
-```python
-start_date = datetime.strptime("2023-04-01 00:00:30", "%Y-%m-%d %H:%M:%S")
-end_date = datetime.strptime("2023-05-01 00:00:00", "%Y-%m-%d %H:%M:%S")
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c5.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c5.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
-interval = timedelta(minutes=60)
-
-xs = []
-edge_indices = []
-ys = []
-y_indices = []
-edge_features = []
-
-
-while start_date <= end_date:
-    # 0 - 60 min 
-    current_snapshot = trips[((start_date + interval) >= trips["end_date"])
-                                & (start_date <= trips["end_date"])]
-    # 60 - 120 min
-    subsequent_snapshot = trips[((start_date + 2*interval) >= trips["end_date"])
-                                & (start_date + interval <= trips["end_date"])]
-    current_snapshot = current_snapshot.groupby(["start_station_id", "end_station_id"]).mean().reset_index()
-    subsequent_snapshot = subsequent_snapshot.groupby(["start_station_id", "end_station_id"]).mean().reset_index()
-
-    edge_feats, additional_edge_index = extract_dynamic_edges(current_snapshot)
-    exteneded_edge_index = np.concatenate([edge_index, additional_edge_index], axis=1)
-    extended_edge_feats = np.concatenate([edge_feats, static_edge_features], axis=0)
-
-    y = subsequent_snapshot["duration"].values
-    y_index = subsequent_snapshot[["start_station_id", "end_station_id"]].values
-
-    xs.append(node_features)
-    edge_indices.append(exteneded_edge_index) 
-    edge_features.append(extended_edge_feats)
-    ys.append(y) 
-    y_indices.append(y_index.transpose()) 
-
-    start_date += interval
-```
-{% endraw %}
-
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c6.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c6.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
 
 
@@ -160,16 +108,15 @@ Graph creation is an important step but before this cell we have to take some st
 
 Now we create a dataset object for temporal signals defined on a dynamic graph.
 
-{% raw %}
-
-```python
-from torch_geometric_temporal.signal import DynamicGraphTemporalSignal
-dataset = DynamicGraphTemporalSignal(
-            edge_indices, edge_features, xs, ys, y_indices=y_indices
-        )
-```
-
-{% endraw %}
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter\rental bike\part III\c7.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c7.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+    {% jupyter_notebook jupyter_path %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
 
 
 edge_indices: A tensor containing the indices of the edges in the graph.
