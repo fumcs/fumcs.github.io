@@ -34,16 +34,24 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 
 ## Node features
 
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/bikeshare_final.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/bikeshare_final.ipynb %}{% endcapture %}
-{% if notebook_exists == "true" %}
-    {% jupyter_notebook jupyter_path %}
-    {% jupyter_cell cell_index=017 %}  <!-- Replace 0 with the index of the cell you want to display -->
-{% else %}
-    <p>Sorry, the notebook you are looking for does not exist 1.</p>
-{% endif %}
-{:/nomarkdown}
+{% raw %}
+html
+#considering the incoming & outgoing trips features of every node
+outgoing_trips = trips.groupby("start_station_id").count()["id"].values
+incoming_trips = trips.groupby("end_station_id").count()["id"].values
+
+all_station_ids = set(trips["start_station_id"].unique()) | set(trips["end_station_id"].unique())
+
+outgoing_trips = np.pad(outgoing_trips, (0, len(all_station_ids) - len(outgoing_trips)), mode='constant')
+incoming_trips = np.pad(incoming_trips, (0, len(all_station_ids) - len(incoming_trips)), mode='constant')
+
+outgoing_trips = (outgoing_trips - np.min(outgoing_trips)) / (np.max(outgoing_trips) - np.min(outgoing_trips))
+incoming_trips = (incoming_trips - np.min(incoming_trips)) / (np.max(incoming_trips) - np.min(incoming_trips))
+
+node_features = np.stack([outgoing_trips, incoming_trips]).transpose()
+print("Full shape: ", node_features.shape)
+node_features[:10]
+{% endraw %}
 
 
 
