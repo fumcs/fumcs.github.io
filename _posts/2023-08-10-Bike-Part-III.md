@@ -29,8 +29,8 @@ As previously discussed in the initial two sections, we possess two datasets req
 bikeshare and divvybikes
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c1.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c1.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c1.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c1.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -43,8 +43,8 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 ## Node features
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c2.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c2.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c2.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c2.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -58,8 +58,8 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 ## Edge creation
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c3.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c3.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c3.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c3.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -71,8 +71,8 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 ## Static & dynamic edges
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c4.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c4.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c4.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c4.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -83,8 +83,8 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 ## Graph creation
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c5.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c5.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c5.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c5.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -93,8 +93,8 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 {:/nomarkdown}
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c6.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c6.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c6.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c6.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -109,8 +109,8 @@ Graph creation is an important step but before this cell we have to take some st
 Now we create a dataset object for temporal signals defined on a dynamic graph.
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter\rental bike\part III\c7.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter\rental bike\part III\c7.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter\rental_bike\part_III\c7.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter\rental_bike\part_III\c7.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
