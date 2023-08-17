@@ -4,7 +4,7 @@ title: Bike Rental System, Part II, PyG-Temporal dataset format
 description: Transforming Tabular data to PyG-Temporal dataset format
 tags: distill formatting
 giscus_comments: true
-date: 2023-08-10
+date: 2023-08-17
 featured: true
 authors:
   - name: P. MottahariNejad
@@ -34,30 +34,31 @@ note:We need to create a new feature called "duration" for the DivvyBike dataset
 
 ## Node features
 
-{% raw %}
-```
-#considering the incoming & outgoing trips features of every node
-outgoing_trips = trips.groupby("start_station_id").count()["id"].values
-incoming_trips = trips.groupby("end_station_id").count()["id"].values
+{% assign jupyter_path = "assets/jupyter/bikeshare_final.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists jupyter_path %}{% endcapture %}
 
-all_station_ids = set(trips["start_station_id"].unique()) | set(trips["end_station_id"].unique())
+{% if notebook_exists == "true" %}
+    {% assign selected_cell_number = 17 %}  <!-- Change this to the desired cell number -->
+    {% capture notebook_content %}{% include_relative assets/jupyter/blog.ipynb %}{% endcapture %}
+    
+    {% assign notebook_cells = notebook_content | split: "\n\n" %}
+    
+    {% if selected_cell_number >= 0 and selected_cell_number < notebook_cells.size %}
+        {% assign selected_cell = notebook_cells[selected_cell_number] %}
+        {{ selected_cell | jupyter_cell }}
+    {% else %}
+        <p>Selected cell number is out of range.</p>
+    {% endif %}
+{% else %}
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
 
-outgoing_trips = np.pad(outgoing_trips, (0, len(all_station_ids) - len(outgoing_trips)), mode='constant')
-incoming_trips = np.pad(incoming_trips, (0, len(all_station_ids) - len(incoming_trips)), mode='constant')
 
-outgoing_trips = (outgoing_trips - np.min(outgoing_trips)) / (np.max(outgoing_trips) - np.min(outgoing_trips))
-incoming_trips = (incoming_trips - np.min(incoming_trips)) / (np.max(incoming_trips) - np.min(incoming_trips))
-
-node_features = np.stack([outgoing_trips, incoming_trips]).transpose()
-print("Full shape: ", node_features.shape)
-node_features[:10]
-```
-{% endraw %}
 
 ## Edge creation
 
 {% raw %}
-```
+```html
 subset = ["start_lng", "start_lat", "start_station_id"]
 all_starts = trips.drop_duplicates(subset="start_station_id", keep="first")[subset]
 
@@ -75,7 +76,7 @@ distance_matrix["edge"] = distance_matrix["distance"] < 500
 ## Static & dynamic edges
 
 {% raw %}
-```
+```html
 edge_index = distance_matrix[distance_matrix["edge"] == True][["start_station_id", "end_station_id"]].values
 edge_index = edge_index.transpose()
 
@@ -89,7 +90,7 @@ static_edge_features = np.stack([distance_feature, edge_type_feature, trip_durat
 
 
 {% raw %}
-```
+```html
 def extract_dynamic_edges(s):
 
     trip_indices = s[["start_station_id", "end_station_id"]].values
@@ -110,7 +111,7 @@ def extract_dynamic_edges(s):
 ## Graph creation
 
 {% raw %}
-```
+```html
 start_date = datetime.strptime("2023-04-01 00:00:30", "%Y-%m-%d %H:%M:%S")
 end_date = datetime.strptime("2023-05-01 00:00:00", "%Y-%m-%d %H:%M:%S")
 
@@ -159,7 +160,7 @@ Now we create a dataset object for temporal signals defined on a dynamic graph.
 
 {% raw %}
 
-```
+```html
 from torch_geometric_temporal.signal import DynamicGraphTemporalSignal
 dataset = DynamicGraphTemporalSignal(
             edge_indices, edge_features, xs, ys, y_indices=y_indices
