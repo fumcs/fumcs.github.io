@@ -30,8 +30,8 @@ As previously discussed in the initial two sections, we possess a dataset requir
 divvybikes
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c1.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c1.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/dataset-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/dataset-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -44,8 +44,8 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 ## Node features
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c2.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c2.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/node_feature-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/node_feature-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -59,8 +59,8 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 ## Edge creation
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c3.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c3.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/edge_creation-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/edge_creation-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -72,8 +72,8 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 ## Static & dynamic edges
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c4.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c4.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/static_dynamic_edge-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/static_dynamic_edge-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -84,8 +84,8 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 ## Graph creation
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c5.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c5.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/graph_creation-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/graph_creation-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -94,8 +94,8 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 {:/nomarkdown}
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c6.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c6.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/exp-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/exp-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
@@ -110,8 +110,8 @@ Graph creation is an important step but before this cell we have to take some st
 Now we create a dataset object for temporal signals defined on a dynamic graph.
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c7.ipynb"| relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/c7.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/rental_bike/part_III/DynamicGraphTemporalSignal-divvybikes.ipynb"| relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/DynamicGraphTemporalSignal-divvybikes.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
