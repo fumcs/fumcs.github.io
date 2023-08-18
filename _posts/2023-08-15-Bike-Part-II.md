@@ -30,7 +30,7 @@ Here we have some statical reports on a dataset.
 ## Data visualization
 ### trips per hour in a month:
 
-{% include figure.html path="assets/img/GNN/trips_per_hour-scatterplot-divvybikes.png" class="img-fluid rounded z-depth-1"%}
+{% include figure.html path="assets/img/GNN/trips_per_hour-scatterplot-divvybikes.png" class="img-fluid rounded z-depth-1" style="max-width: 50%; height: auto;" %}
 
 
 ### Histogram of Number of Stations with a certain number of Arrivals+Departures in a Week:
