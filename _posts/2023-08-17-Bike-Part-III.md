@@ -43,6 +43,9 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 
 ## Node features
 
+The following code section adeptly processes the bike trip data, ultimately generating normalized node features that effectively encapsulate the distribution of incoming and outgoing trips for each individual bike station within the prospective graph dataset. This code section is crucial for analyzing and visualizing bike-sharing demand, which can be valuable for bike-sharing operators to plan for the distribution of stations across the service area.
+
+
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/node_feature-divvybikes.ipynb"| relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/node_feature-divvybikes.ipynb %}{% endcapture %}
@@ -58,6 +61,9 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 
 ## Edge creation
 
+This section of the code effectively handles the trip data to calculate distances between stations and define edges for the graph. It involves the creation of a matrix that includes station pairs, their distances, and determines whether an edge should be formed between them based on a given threshold. The resulting edge matrix is a vital component in constructing the graph that represents the connectivity between bike stations.
+
+
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/edge_creation-divvybikes.ipynb"| relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/edge_creation-divvybikes.ipynb %}{% endcapture %}
@@ -71,6 +77,8 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 
 ## Static & dynamic edges
 
+In this section of the code, we are establishing both static and dynamic edge features for the construction of the graph dataset. These features are crucial in defining the attributes and characteristics associated with the edges connecting bike stations within the graph. These components contribute to defining static and dynamic edge features for the graph dataset. Static edge features remain constant, providing important information about the connectivity between bike stations. On the other hand, dynamic edge features vary over time, capturing the evolving nature of bike-sharing demand and trip-specific attributes. This comprehensive approach ensures that the graph accurately represents the relationships and characteristics of the bike stations and their connections.
+
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/static_dynamic_edge-divvybikes.ipynb"| relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/static_dynamic_edge-divvybikes.ipynb %}{% endcapture %}
@@ -83,6 +91,9 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 
 ## Graph creation
 
+This section of the code efficiently manages the creation of the graph dataset by iteratively processing time intervals, generating snapshots of data, calculating edge features, and organizing the necessary attributes for each interval. The outcome is a comprehensive dataset that can be utilized for training and analysis using graph-based machine learning models.
+
+
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/graph_creation-divvybikes.ipynb"| relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/rental_bike/part_III/graph_creation-divvybikes.ipynb %}{% endcapture %}
@@ -92,6 +103,11 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
     <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
+
+
+
+This section of the code enables the presentation of a tangible example showcasing the components of the graph snapshot. It plays a crucial role in comprehending the dataset's structure and ensuring the uniformity of dimensions across different features and labels within each snapshot.
+
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/exp-divvybikes.ipynb"| relative_url %}
@@ -105,9 +121,11 @@ note: We need to create a new feature called "duration" for the DivvyBike datase
 
 
 
-Graph creation is an important step but before this cell we have to take some steps such as Edge creation, Static & dynamic edges and etc.
 
-Now we create a dataset object for temporal signals defined on a dynamic graph.
+
+In this code section, the utilization of the DynamicGraphTemporalSignal class from the torch_geometric_temporal.signal module enables the creation of a dynamic graph dataset. This dataset is constructed by incorporating the provided edge indices, edge features, node features, labels, and label indices.
+
+The resulting dataset object, generated using the DynamicGraphTemporalSignal class, is now ready for utilization in various graph-based temporal analysis and machine learning tasks. It effectively encapsulates the dynamic graph data in a format that is compatible with PyTorch Geometric's temporal signal processing capabilities.
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/DynamicGraphTemporalSignal-divvybikes.ipynb"| relative_url %}
@@ -118,6 +136,7 @@ Now we create a dataset object for temporal signals defined on a dynamic graph.
     <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
+
 
 
 edge_indices: A tensor containing the indices of the edges in the graph.
