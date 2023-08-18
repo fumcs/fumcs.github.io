@@ -25,9 +25,9 @@ authors:
  
 # Graph Creation
 
-As previously discussed in the initial two sections, we possess two datasets requiring conversion into graphs subsequent to the Exploratory Data Analysis (EDA) phase. In the subsequent content, we will delve into the procedural steps of this particular stage.
+As previously discussed in the initial two sections, we possess a dataset requiring conversion into graphs subsequent to the Exploratory Data Analysis (EDA) phase. In the subsequent content, we will delve into the procedural steps of this particular stage.
 
-bikeshare and divvybikes
+divvybikes
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/c1.ipynb"| relative_url %}
@@ -39,7 +39,7 @@ bikeshare and divvybikes
 {% endif %}
 {:/nomarkdown}
 
-note:We need to create a new feature called "duration" for the DivvyBike dataset.
+note: We need to create a new feature called "duration" for the DivvyBike dataset.
 
 ## Node features
 

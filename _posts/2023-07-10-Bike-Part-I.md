@@ -66,8 +66,8 @@ In Part II of this series, we will dive into the process of transforming tabular
 
 Other parts of these series (under construction):
 
-- Part II: [How to transform Tabular data to PyG-Temporal for some bike data sets](#)
-- Part III: [Exploratory Data Analysis on Bike Rental dataset]()
+- Part II: [Exploratory Data Analysis on Bike Rental dataset](#)
+- Part III: [How to transform Tabular data to PyG-Temporal for some bike data sets]()
 - Part IV: [Machine learning on Bike rental dataset]()
 
 ## References:
