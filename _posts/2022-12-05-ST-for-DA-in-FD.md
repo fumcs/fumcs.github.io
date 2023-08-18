@@ -2,8 +2,7 @@
 layout: page
 title: Data Augmentation for Fire Detection
 description: How to use Style Tranfer for Data Augmentation in a Fire Detection System
-img: assets/img/7.jpg
-# redirect: https://github.com/mamintoosi/ST-for-DA-in-FD
+thumbnail: assets/img/CV.jpg
 importance: 3
 category: research
 related_publications: ST_for_DA_2022
@@ -20,8 +19,9 @@ The following image show an instance of style transfer. Other instances could be
         {% include figure.html path="assets/img/ST_for_DA_2022/fox2_feathers.jpg" title="Style Transfer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-Unleashing the power of style transfer to enhance fire detection is done  and published in a paper entitled by "Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection".
+<div class="caption">
+Unleashing the power of style transfer to enhance fire detection is done  and published in a paper entitled by "Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection". The Style of the lower left image is transfered to upper left image.
+</div>
 
 Abstract:
 
@@ -32,3 +32,9 @@ Some daytime images that transfered to nighttime using a night image (middle):
 <tr><td> <img src="assets/img/ST_for_DA_2022/img31.jpg" width="700"> </td></tr>
 <tr><td> <img src="assets/img/ST_for_DA_2022/img35.jpg" width="700"> </td></tr>
 </table>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ST_for_DA_2022/img31.jpg" title="Style Transfer" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

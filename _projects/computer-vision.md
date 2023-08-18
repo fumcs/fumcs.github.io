@@ -6,7 +6,7 @@ img: assets/img/CV.jpg
 importance: 2
 category: work
 giscus_comments: true
-related_publications: JMIV-2022, Visual-2022, ST_for_DA_2022, JMM-2022, mattingJSDP98, Bakhti97knn, Ezzati96graph, Assaran96KSVD, Amintoosi96IPRIA-Matting, Amintoosi96IPRIA-BlockNorm, Amintoosi96IPRIA-ELM, Amintoosi94spectral, Amintoosi94matting, Sheida90Unified,Amintoosi09afast, Amintoosi09videoSR,Amintoosi2011collage, Amintoosi09image, Amintoosi09precise, Amintoosi09regional,Amintoosi09video, Amintoosi88amikhtan,Amintoosi88sabtetasvir,Amintoosi87afzayesh,Amintoosi08using,Sadoghi06anew,
+related_publications: JMIV-2022, Visual-2022, ST_for_DA_2022, JMM-2022, mattingJSDP98, Bakhti97knn, Ezzati96graph, Assaran96KSVD, Amintoosi96IPRIA-Matting, Amintoosi96IPRIA-BlockNorm, Amintoosi96IPRIA-ELM, Amintoosi94spectral, Amintoosi94matting, Sheida90Unified,Amintoosi09afast, Amintoosi09videoSR,Amintoosi2011collage, Amintoosi09image, Amintoosi09precise, Amintoosi09regional,Amintoosi09video, Amintoosi88amikhtan,Amintoosi88sabtetasvir,Amintoosi87afzayesh,Amintoosi08using,Sadoghi06anew, Bakhti97knn,
 ---
 
 
