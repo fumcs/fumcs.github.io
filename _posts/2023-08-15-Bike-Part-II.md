@@ -6,6 +6,7 @@ tags: distill formatting
 giscus_comments: true
 date: 2023-08-15
 featured: true
+thumbnail: assets/img/GNN/two-wheels.jpg
 authors:
   - name: P. MottahariNejad
     url: ""
@@ -90,3 +91,4 @@ bikeshare
 {% include figure.html path="assets/img/GNN/b5.png" class="img-fluid rounded z-depth-1" %}
 
 - The line plot effectively illustrates the temporal distribution of bike trips throughout the day over a three-month period. The data analysis showcases distinctive trends in bike-sharing demand during different hours, with significant peaks observed during the morning and evening rush hours.
+

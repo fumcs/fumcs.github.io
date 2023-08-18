@@ -6,6 +6,7 @@ tags: distill formatting
 giscus_comments: true
 date: 2023-07-10
 featured: true
+thumbnail: assets/img/GNN/one-wheel.jpg
 authors:
   - name: M. Amintoosi
     url: "https://mamintoosi.github.io/"
@@ -73,3 +74,5 @@ Other parts of these series (under construction):
 - Bike Sharing Dataset. (2018). Retrieved from https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
 - Hamilton, W., Ying, Z., & Leskovec, J. (2017). Inductive representation learning on large graphs. In Advances in Neural Information Processing Systems (pp. 1025-1035).
 - Su, J., Vargas, D. V., & Sakurai, K. (2019). A survey on heterogeneous data mining: from unstructured data to graphs. ACM SIGKDD Explorations Newsletter, 20(2), 5-23.
+
+[Thumbnail image source](https://www.amazon.ae/Unicycles-Mountain-Outdoor-Unicycle-18Inch/dp/B098F53K7X)
