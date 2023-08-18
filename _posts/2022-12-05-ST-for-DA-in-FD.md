@@ -23,15 +23,10 @@ The following image show an instance of style transfer. Other instances could be
 Unleashing the power of style transfer to enhance fire detection is done  and published in a paper entitled by "Style Transfer for Data Augmentation in Convolutional Neural Networks Applied to Fire Detection". The Style of the lower left image is transfered to upper left image.
 </div>
 
-Abstract:
+Paper Abstract:
 
  In realm of deep learning, the availability of robust training data is paramount. To overcome the scarcity of training samples, we delve into the realm of "data augmentation" techniques. Within this study, we harness the transformative capabilities of the "style transfer" algorithm, which enables the transfer of visual styles from daytime to nighttime images. By leveraging this approach, we augment our training dataset for fire detection, where nighttime samples are limited. The experimental results demonstrate a notable 7% increase in the correct detection rate, affirming the efficacy of our data augmentation method. For comprehensive insights, please consult the corresponding [Github repository](https://github.com/mamintoosi/ST-for-DA-in-FD).
 
-Some daytime images that transfered to nighttime using a night image (middle):
-<!-- <table  align="center" border="1">
-<tr><td> <img src="assets/img/ST_for_DA_2022/img31.jpg" width="700"> </td></tr>
-<tr><td> <img src="assets/img/ST_for_DA_2022/img35.jpg" width="700"> </td></tr>
-</table> -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -43,3 +38,7 @@ Some daytime images that transfered to nighttime using a night image (middle):
         {% include figure.html path="assets/img/ST_for_DA_2022/img35.jpg" title="Style Transfer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+Some daytime images that transfered to nighttime using a night image (middle).
+</div>
+
