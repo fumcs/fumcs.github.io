@@ -7,9 +7,7 @@ nav_order: 4
 description: Master of data science
 ---
 
-Here is another possible rewrite of the text:
-
-The data science program is a newly established program in our faculty, and the students of the MSc of data science have not graduated yet. However, the faculty members have many years of experience in advising graduate students in computer science, mathematics and related domains, in Ferdowsi University or other universities. In the following table, some of the thesis advised by the faculty members are listed (In Persian):
+The data science program is a newly established program in our faculty, and the students of the MSc of data science have not graduated yet. However, the faculty members have many years of experience in advising graduate students in computer science, mathematics and related domains, in Ferdowsi University or other universities. In the following table, some of the thesis advised by the faculty members are listed (Thesis are in Persian language):
 
 | **Thesis title** | Related subject in mathematics/computer science/statistics |
 | --- | --- |
