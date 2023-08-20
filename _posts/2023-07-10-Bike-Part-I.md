@@ -66,7 +66,7 @@ In Part II of this series, we will dive into the process of transforming tabular
 
 Other parts of these series (under construction):
 
-- Part II: [Exploratory Data Analysis on Bike Rental dataset](/blog/2023/Bike-Part-I/)
+- Part II: [Exploratory Data Analysis on Bike Rental dataset]({% post_url 2023-08-15-Bike-Part-II %})
 - Part III: [How to transform bike tabular data to PyG-Temporal format?](/blog/2023/Bike-Part-III/)
 - Part IV: [Machine learning on Bike rental dataset](#)
 
