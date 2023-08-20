@@ -1,11 +1,11 @@
 ---
 layout: distill
 title: Bike Rental System, Part III, PyG-Temporal dataset format
-description: Transforming Tabular data to PyG-Temporal dataset format
+description: How to transform bike tabular data to PyG-Temporal format?
 tags: distill formatting
 giscus_comments: true
 date: 2023-08-17
-featured: true
+featured: false
 thumbnail: assets/img/GNN/three-wheels.jpg
 authors:
   - name: P. MottahariNejad

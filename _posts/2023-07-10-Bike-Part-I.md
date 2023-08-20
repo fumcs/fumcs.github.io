@@ -66,9 +66,9 @@ In Part II of this series, we will dive into the process of transforming tabular
 
 Other parts of these series (under construction):
 
-- Part II: [Exploratory Data Analysis on Bike Rental dataset](#)
-- Part III: [How to transform Tabular data to PyG-Temporal for some bike data sets]()
-- Part IV: [Machine learning on Bike rental dataset]()
+- Part II: [Exploratory Data Analysis on Bike Rental dataset](/blog/2023/Bike-Part-I/)
+- Part III: [How to transform bike tabular data to PyG-Temporal format?](/blog/2023/Bike-Part-III/)
+- Part IV: [Machine learning on Bike rental dataset](#)
 
 ## References:
 - Bike Sharing Dataset. (2018). Retrieved from https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
