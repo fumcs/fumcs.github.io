@@ -5,7 +5,7 @@ description: Exploratory Data Analysis
 tags: distill formatting
 giscus_comments: true
 date: 2023-08-15
-featured: true
+featured: false
 thumbnail: assets/img/GNN/two-wheels.jpg
 authors:
   - name: P. MottahariNejad
