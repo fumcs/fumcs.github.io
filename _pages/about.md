@@ -22,11 +22,11 @@ social: true  # includes social icons at the bottom of the page
 The Department of Computer Science at Ferdowsi University of Mashhad was established in 2019 and offers undergraduate program in computer science, as well as a master’s program in data science, which is an interdisciplinary field that combines computer science and applied mathematics.
 
  The website of the department showcases the [publications](/publications/) and [research projects](/projects/) of the faculty members and students, including some information about the [data science curriculum](/msc-ds/). 
-The Department of Computer Science at Ferdowsi University of Mashhad covers various research topics in computer science, such as [combinatorial optimization](/projects/comb_opt), [computer vision](/project/computer-vision), [neural networsk and deep learning](/projects/deep-learning), [meta-heuristic algorithms](/projects/meta-heuristic) and some other areas. These topics are reflected in the [publications page](/publications/), [research projects](/projects/), [the blog](/blog/), and  [the news](/news/), that can be found on this website.
+The Department of Computer Science at Ferdowsi University of Mashhad covers various research topics in computer science, such as [combinatorial optimization](/projects/comb_opt), [computer vision](/projects/computer-vision), [neural networks and deep learning](/projects/deep-learning), [meta-heuristic algorithms](/projects/meta-heuristic) and some other areas. These topics are reflected in the [publications page](/publications/), [research projects](/projects/), [the blog](/blog/), and  [the news](/news/), that can be found on this website.
+
+Our computer science group has a Slack channel where we can chat and share ideas. To join us,  [click this link](https://join.slack.com/t/fum-cs/shared_invite/zt-1zntzuw2t-JOWbsyQdGASNz~40AhWy_Q) and follow the instructions.
 
 Due to the recent establishment of the computer science and data science programs, all the official administrative tasks related to these programs are currently handled by the Department of Applied Mathematics.
-
-Our computer science group has a Slack channel where we can chat and share ideas. If you want to join, [here is the link](https://join.slack.com/t/fum-cs/shared_invite/zt-1zntzuw2t-JOWbsyQdGASNz~40AhWy_Q).
 
 <!-- The students are also involved in different activities, such as managing the website. One of the research interests of the department is graph neural networks, which are powerful tools for learning from graph-structured data.
 
