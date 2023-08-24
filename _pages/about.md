@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: علوم کامپیوتر فردوسی مشهد
+# subtitle: علوم کامپیوتر فردوسی مشهد
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
