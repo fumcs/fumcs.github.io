@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /peoples/
+permalink: /staff/
 title: cv
 nav: false
 nav_order: 4
