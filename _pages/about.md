@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: (In Persian) [علوم کامپیوتر فردوسی مشهد](https://fumcs-github-io.translate.goog/?_x_tr_sl=en&_x_tr_tl=fa&_x_tr_hl=en&_x_tr_pto=wapp)
+subtitle: (In Persian) <a href='https://fumcs-github-io.translate.goog/?_x_tr_sl=en&_x_tr_tl=fa&_x_tr_hl=en&_x_tr_pto=wapp'>علوم کامپیوتر فردوسی مشهد</a>
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
