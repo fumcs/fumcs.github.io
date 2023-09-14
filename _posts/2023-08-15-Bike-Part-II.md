@@ -8,11 +8,11 @@ date: 2023-08-15
 featured: false
 thumbnail: assets/img/GNN/two-wheels.jpg
 authors:
-  - name: P. MottahariNejad
+  - name: E. Hosseini
     url: ""
     affiliations:
       name: FUM, CS Student
-  - name: E. Hosseini
+  - name: P. MottahariNejad
     url: ""
     affiliations:
       name: FUM, CS Student
