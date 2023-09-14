@@ -111,9 +111,7 @@ This section of the code efficiently manages the creation of the graph dataset b
 {:/nomarkdown}
 
 
-
 This section of the code enables the presentation of a tangible example showcasing the components of the graph snapshot. It plays a crucial role in comprehending the dataset's structure and ensuring the uniformity of dimensions across different features and labels within each snapshot.
-
 
 
 {::nomarkdown}
@@ -127,16 +125,11 @@ This section of the code enables the presentation of a tangible example showcasi
 {:/nomarkdown}
 
 
-
 In this code section, the utilization of the DynamicGraphTemporalSignal class from the torch_geometric_temporal.signal module enables the creation of a dynamic graph dataset. This dataset is constructed by incorporating the provided edge indices, edge features, node features, labels, and label indices.
 
-
-
+---
 
 The resulting dataset object, generated using the DynamicGraphTemporalSignal class, is now ready for utilization in various graph-based temporal analysis and machine learning tasks. It effectively encapsulates the dynamic graph data in a format that is compatible with PyTorch Geometric's temporal signal processing capabilities.
-
-
-
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rental_bike/part_III/DynamicGraphTemporalSignal-divvybikes.ipynb"| relative_url %}
@@ -149,7 +142,6 @@ The resulting dataset object, generated using the DynamicGraphTemporalSignal cla
 {:/nomarkdown}
 
 ---
-
 edge_indices: A tensor containing the indices of the edges in the graph.
 
 edge_features: A tensor containing the features of the edges in the graph.
@@ -160,7 +152,6 @@ ys: A tensor containing the target values for each time step.
 
 y_indices: A tensor containing the indices of the target values in the ys tensor (optional).
 The resulting dataset object can be used for training and testing machine learning models that operate on spatiotemporal data.
-
 ---
 
 - Part I: [Introduction to Bike Rental Platforms, Datasets and Methods](/blog/2023/Bike-Part-I/)
