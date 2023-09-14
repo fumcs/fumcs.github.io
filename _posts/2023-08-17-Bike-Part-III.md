@@ -150,6 +150,7 @@ ys: A tensor containing the target values for each time step.
 y_indices: A tensor containing the indices of the target values in the ys tensor (optional).
 The resulting dataset object can be used for training and testing machine learning models that operate on spatiotemporal data.
 
-<!-- [Thumbnail image source00](https://mymodernmet.com/sergii-gordieiev-cool-bike-with-two-half-wheels/) -->
+---
 
-[Thumbnail image source](https://bicycle2work.com/guide-to-3-wheel-bicycles/)
+- Part I: [Introduction to Bike Rental Platforms, Datasets and Methods](/blog/2023/Bike-Part-I/)
+- Part II: [Exploratory Data Analysis on Bike Rental dataset](/blog/2023/Bike-Part-II/)

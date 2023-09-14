@@ -65,6 +65,8 @@ We also analyze patterns in the monthly, weekly, and daily periods of dataset to
 
 
 - The line plot provides an effective visualization of the temporal distribution of bike trips throughout the day. The data analysis uncovers distinctive trends in bike-sharing demand during different hours, with significant peaks observed during the morning and evening rush hours. This information can be valuable for bike-sharing operators to plan for the distribution of bikes and stations across the service area.
-##
+
+---
+
 - Part I: [Introduction to Bike Rental Platforms, Datasets and Methods](/blog/2023/Bike-Part-I/)
 - Part III: [How to transform bike tabular data to PyG-Temporal format?](/blog/2023/Bike-Part-III/)
