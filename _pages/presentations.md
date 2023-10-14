@@ -8,6 +8,7 @@ nav_order: 5
 ---
 
 <ul>
+ <li> <a href="https://mamintoosi.github.io/slides/topics/DLX/DLX.html">Algorithm X, Dancing Links & Combinatorial Optimization</a>, by M. Amintoosi, Oct 2023</li>
  <li> <a href="https://mamintoosi.github.io/slides/topics/GNN/GNN-2022.html">Introducing Graph Neural Networks</a>, by M. Amintoosi, Dec 2022</li>
  <li> <a href="https://mamintoosi.github.io/slides/topics/DL-HSU/DeepLearning-Workshop-ESLA2022.html">Deep Learning with Pytorch</a>, by M. Amintoosi, Feb 2022</li>
  <li> <a href="https://mamintoosi.github.io/slides/topics/DL-HSU/index.html">Deep Learning with TensorFlow</a>, by M. Amintoosi, Dec 2019</li>
