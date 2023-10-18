@@ -5,7 +5,7 @@ description: Neural Networks and Deep Learning
 img: assets/img/tree.jpg
 importance: 3
 category: work
-related_publications: ST_for_DA_2022, FC2FC_2022, Farhadi2022, Reg-OBD-Corona-Detection, GCN-JAC2021, Farhadi2019, Monsefi02agenetic
+related_publications: ST_for_DA_2022, FC2FC_2022, Farhadi2022, Reg-OBD-Corona-Detection, GCN-JAC2021, Farhadi2019, Monsefi02agenetic, TaylorExpansion_in_CNN_prunning99
 tags: Deep-Learning
 ---
 
