@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://fumcs.github.io/sitemap.xml
