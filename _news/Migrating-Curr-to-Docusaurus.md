@@ -20,4 +20,4 @@ The new website, built with docusaurus, solves these problems and offers a bette
 
 The FUM Computer Science Department invites all students and faculty to visit the new website and provide feedback and suggestions. The department also welcomes contributions from the community to improve the website and the curriculum.
 
-The new website was developed with the major contribution of [Mr. Masih Sadjjadi](https://github.com/theMasix), a student of the FUM Computer Science Department, who migrated the content from the previous forms to docusaurus framework. The department appreciates his efforts and skills in creating this website.
+The new website was developed with the major contribution of [Mr. Masih Sajadi](https://github.com/theMasix), a student of the FUM Computer Science Department, who migrated the content from the previous forms to docusaurus framework. The department appreciates his efforts and skills in creating this website.
