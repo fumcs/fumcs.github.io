@@ -10,7 +10,7 @@ FUM Computer Science Department adopts docusaurus for its new curriculum website
 
 The Computer Science Department of Ferdowsi University of Mashhad (FUM) has recently launched a new website for its Bachelor of Science program in Computer Science, using docusaurus, an open-source static site generator powered by React.
 
-The new website, available at [fum-cs.github.io], features the updated curriculum, course descriptions, learning outcomes, and other information for students and faculty. The website also supports Persian right-to-left text, thanks to the flexibility and customization of docusaurus.
+The new website, available at [fum-cs.github.io](https://fum-cs.github.io/), features the updated curriculum, course descriptions, learning outcomes, and other information for students and faculty. The website also supports Persian right-to-left text, thanks to the flexibility and customization of docusaurus.
 
 Docusaurus is a tool that helps teams create websites with content written in Markdown, and provides out-of-the-box features such as documentation, blogging, localization, search, and theme customizations. Docusaurus is used by thousands of organizations, including Facebook, Supabase, Temporal, and Testing Library.
 
