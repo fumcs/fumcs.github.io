@@ -17,8 +17,8 @@ nav_order: 5
  	<ul>
 		<li><a href="https://fum-cs.github.io/cpp4python/">C++ for Python Programmers</a></li>
 	</ul>
- <li> <a href="https://fum-cs.github.io/ci/"> Computational Intelligence, Spring 2024</a></li>
-	<!-- <ul>
+ <!--<li> <a href="https://fum-cs.github.io/ci/"> Computational Intelligence, Spring 2024</a></li>
+	 <ul>
 		<li><a href="https://fum-cs.github.io/neural-networks/">Neural Networks</a></li>
 		<li><a href="">Evolutionary Algorithms</a></li>
 		<li><a href="">Fuzzy Logic</a></li>
