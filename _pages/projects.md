@@ -7,6 +7,7 @@ nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
+tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
 Research at the Department of Computer Science is classified into some following broad themes. In addition some related fun works are done that is reported here :)

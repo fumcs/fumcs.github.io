@@ -6,6 +6,7 @@ subtitle: Faculty Members
 nav: false
 nav_order: 4
 description: Faculty Members of CS Dept.
+tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
 <div class="row row-cols-2 projects pt-3 pb-3">

@@ -5,6 +5,7 @@ title: Repositories
 description: Repositories related to people of CS Dept.
 nav: true
 nav_order: 3
+tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
 ## GitHub users
