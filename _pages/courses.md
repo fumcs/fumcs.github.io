@@ -10,7 +10,7 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
 
 <ul>
  <li> <a href="https://fum-cs.github.io/cs-bsc-dm/">Data Mining</a>, Spring 2023</li>
- <li> <a href="https://fum-cs.github.io/cw2/">Computer Workshop II</a>, Spring 2023</li>
+ <li> <a href="https://fum-cs.github.io/cw2/">Computer Workshop II</a>, Fall 2023</li>
  <li> <a href="https://fum-cs.github.io/dl/">Deep Learning</a>, Fall 2023</li>
  <li> <a href="https://fum-cs.github.io/fds/">Foundations of Data Science</a>, Fall 2023</li>
  <li> <a href="https://fum-cs.github.io/learning-theory/">Learning Theory</a>, Spring 2024</li>
