@@ -13,7 +13,6 @@ profile:
     <p>Faculty of Mathematical Sciences</p>
     <p>Ferdowsi Univ. of Mashhad</p>
     <p>Mashhad, IRAN</p>
-    <p>(Unofficial Website)</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts

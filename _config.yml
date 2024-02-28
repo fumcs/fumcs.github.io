@@ -5,14 +5,14 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Comp. Sci. 
 middle_name: Dept.
-last_name: FUM (unoff.)
+last_name: FUM
 email: m.amintoosi@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ferdowsi University of Mashhad, Computer Science Dept.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  علوم کامپیوتر فردوسی مشهد (غیررسمی)
+  علوم کامپیوتر فردوسی مشهد 
 keywords: Computer Science Dept, علوم کامپیوتر فردوسی مشهد , علوم کامپیوتر, فردوسی مشهد ,علوم کامپیوتر فردوسی مشهد,علوم کامپیوتر فردوسی مشهد   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
