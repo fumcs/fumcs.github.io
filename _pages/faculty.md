@@ -20,6 +20,6 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
 
   {% include people_horizontal.html name="Dr. Mahmood Amintoosi" affiliation="CS Dept." url="http://mamintoosi.github.io" img="/assets/img/people/M-Amintoosi.jpg" %}
 
-  {% include people_horizontal.html name="Dr. Soheyla Ashkezari" affiliation="CS Dept." url="" img="/assets/img/people/S-Ashkezari.jpg" %}
+  {% include people_horizontal.html name="Dr. Soheila Ashkezari-T" affiliation="CS Dept." url="https://scholar.google.com/citations?user=ql5JirMAAAAJ&hl=en&oi=ao" img="/assets/img/people/S-Ashkezari.jpg" %}
 </div>
 
