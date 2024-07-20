@@ -9,7 +9,7 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
 ---
 
 <ul>
- <li> <a href="https://gta-lab.github.io/">Graph Theory and its Applications Lab</li>
+ <li> <a href="https://gta-lab.github.io/">Graph Theory and its Applications Lab </a></li>
  <li> <a href="">Optimization Lab</a></li>
  <li> <a href="">NLP Lab</a></li>
 </ul>
