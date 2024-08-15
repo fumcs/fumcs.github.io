@@ -16,7 +16,7 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
  <li> <a href="https://fum-cs.github.io/learning-theory/">Learning Theory</a>, Spring 2024</li>
   <ul>
   <li><a href="https://fum-cs.github.io/neural-networks/">Neural Networks</a></li>
-  <li><a href="https://fum-cs.github.io/machine-learning//">MAchine Learning</a></li>
+  <li><a href="https://fum-cs.github.io/machine-learning//">Machine Learning</a></li>
  </ul>
  <li> <a href="https://fum-cs.github.io/modern-cpp/">Advanced Programming</a>, Spring 2024</li>
   <ul>
