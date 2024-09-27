@@ -11,12 +11,12 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
 <ul>
  <li> <a href="https://fum-cs.github.io/cs-bsc-dm/">Data Mining</a>, Spring 2023</li>
  <li> <a href="https://fum-cs.github.io/cw2/">Computer Workshop II</a>, Fall 2023</li>
- <li> <a href="https://fum-cs.github.io/dl/">Deep Learning</a>, Fall 2023</li>
+ <li> <a href="https://fum-cs.github.io/dl/">Deep Learning Course</a></li>
  <li> <a href="https://fum-cs.github.io/fds/">Foundations of Data Science</a>, Fall 2023</li>
  <li> <a href="https://fum-cs.github.io/learning-theory/">Learning Theory</a>, Spring 2024</li>
   <ul>
   <li><a href="https://fum-cs.github.io/neural-networks/">Neural Networks</a></li>
-  <li><a href="https://fum-cs.github.io/machine-learning//">Machine Learning</a></li>
+  <li><a href="https://fum-cs.github.io/machine-learning/">Machine Learning</a></li>
  </ul>
  <li> <a href="https://fum-cs.github.io/modern-cpp/">Advanced Programming</a>, Spring 2024</li>
   <ul>
