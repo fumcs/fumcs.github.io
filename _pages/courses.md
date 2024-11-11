@@ -3,7 +3,7 @@ layout: page
 permalink: /courses/
 title: Courses
 description: Courses taught in CS Dept.
-nav: true
+nav: false
 nav_order: 5
 tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
