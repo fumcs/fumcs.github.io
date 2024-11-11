@@ -8,8 +8,6 @@ nav_order: 5
 tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
-[Our new curriculum for the B.Sc. program in Computer Science]()
-
 <ul>
  <li> <a href="https://fum-cs.github.io/cs-bsc-dm/">Data Mining</a>, Spring 2023</li>
  <li> <a href="https://fum-cs.github.io/cw2/">Computer Workshop II</a>, Fall 2023</li>
@@ -36,3 +34,5 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
 <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
 Organize your courses by years, topics, or universities, however you like! -->
+
+[Our new curriculum for the B.Sc. program in Computer Science](https://fum-cs.github.io/docs/category/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%B3%DB%8C)
