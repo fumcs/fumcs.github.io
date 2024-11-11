@@ -8,9 +8,6 @@ children:
     - title: Faculty
       permalink: /faculty/
     - title: divider
-    - title: Publications
-      permalink: /publications/
-    - title: divider
     - title: Presentations
       permalink: /presentations/
     - title: divider

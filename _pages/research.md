@@ -8,7 +8,9 @@ children:
     - title: Research Areas
       permalink: /projects/
     - title: divider
+    - title: Publications
+      permalink: /publications/      
+    - title: divider
     - title: Laboratories
       permalink: /labs/
-    - title: divider
 ---

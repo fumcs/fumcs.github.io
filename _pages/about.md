@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
-The Department of Computer Science at Ferdowsi University of Mashhad was established in 2019 and offers undergraduate program in computer science, as well as a master’s program in data science, which is an interdisciplinary field that combines computer science and applied mathematics.
+The Department of Computer Science at Ferdowsi University of Mashhad was established in 2019 and offers [undergraduate program in computer science](https://fum-cs.github.io/docs/category/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%B3%DB%8C), as well as a master’s program in data science, which is an interdisciplinary field that combines computer science and applied mathematics.
 
  The website of the department showcases the [publications](/publications/) and [research projects](/projects/) of the faculty members and students, including some information about the [data science curriculum](/msc-ds/). 
 The Department of Computer Science at Ferdowsi University of Mashhad covers various research topics in computer science, such as [combinatorial optimization](/projects/comb-opt), [computer vision](/projects/computer-vision), [neural networks and deep learning](/projects/deep-learning), [meta-heuristic algorithms](/projects/meta-heuristic) and some other areas. These topics are reflected in the [publications page](/publications/), [research projects](/projects/), [the blog](/blog/), and  [the news](/news/), that can be found on this website.
