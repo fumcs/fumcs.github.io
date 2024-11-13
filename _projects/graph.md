@@ -5,7 +5,7 @@ description: Graphs, A Powerful Tool for Computer Science
 img: assets/img/bio-graph.jpg
 importance: 4
 category: work
-related_publications: Amintoosi2023FS-bio-math, GCN-JAC2021, ModifiedGA-iranaict99, Ezzati99, Hosseini98-TSCO-Karger,Ezzati98-TSCO-GD,Nemati96GA, Amintoosi94spectral, Ezzati96graph, Hoseini93mincutTS,Amintoosi09regional
+related_publications: GSL-TF1403aimc55, Amintoosi2023GFS-COAM, Amintoosi2023FS-bio-math, GCN-JAC2021, ModifiedGA-iranaict99, Ezzati99, Hosseini98-TSCO-Karger,Ezzati98-TSCO-GD,Nemati96GA, Amintoosi94spectral, Ezzati96graph, Hoseini93mincutTS, Amintoosi09regional
 ---
 
 Graphs are one of the most important and versatile data structures in computer science. They can model complex relationships between data items, such as networks, hierarchies, dependencies, similarities, and more. Graphs can also capture various properties of data, such as direction, weight, distance, and connectivity.
