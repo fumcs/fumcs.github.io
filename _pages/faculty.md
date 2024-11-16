@@ -18,6 +18,8 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
 
   {% include people_horizontal.html name="Dr. Mahmood Amintoosi" affiliation="CS Dept." url="http://mamintoosi.github.io" img="/assets/img/people/M-Amintoosi.jpg" %}
 
+  {% include people_horizontal.html name="Dr. Hamed Fahimi" affiliation="CS Dept." url="" img="/assets/img/people/H-Fahimi.jpg" %}
+
   {% include people_horizontal.html name="Dr. Reza Ghanbari" affiliation="CS Dept." url="" img="/assets/img/people/R-Ghanbari.jpg" %}
 
   {% include people_horizontal.html name="Dr. Jalal Nasiri" affiliation="CS Dept." url="" img="/assets/img/people/J-Nasiri.jpg" %}
