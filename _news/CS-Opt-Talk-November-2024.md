@@ -21,7 +21,7 @@ The Optimization Laboratory, in collaboration with the Iranian Operations Resear
 **Speaker:** Ms. Parisa Asadi  
 (Executive Director of TrigUp Accelerator)
 
-**Date:** Wednesday, November 13, 2023  
+**Date:** Wednesday, November 13, 2024  
 **Time:** 12:00 PM  
 **Location:** Faculty of Mathematical Sciences, Dr. Bozorgnia Hall
 
