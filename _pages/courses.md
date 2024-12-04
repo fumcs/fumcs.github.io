@@ -5,7 +5,12 @@ title: Courses
 description: Courses taught in CS Dept.
 nav: false
 nav_order: 5
-tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
+tags:
+  [
+    Computer Science Dept.,
+    Ferdowsi University of Mashhad,
+    علوم کامپیوتر دانشگاه فردوسی مشهد,
+  ]
 ---
 
 <ul>
@@ -13,6 +18,7 @@ tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپ
  <li> <a href="https://fum-cs.github.io/cw2/">Computer Workshop II</a>, Fall 2023</li>
  <li> <a href="https://fum-cs.github.io/dl/">Deep Learning Course</a></li>
  <li> <a href="https://fum-cs.github.io/fds/">Foundations of Data Science</a>, Fall 2023</li>
+<li><a href="https://fum-cs.github.io/mfds/">Mathematical Foundations of Data Science</a>, Fall 2024</li>
  <li> <a href="https://fum-cs.github.io/learning-theory/">Learning Theory</a>, Spring 2024</li>
   <ul>
   <li><a href="https://fum-cs.github.io/neural-networks/">Neural Networks</a></li>
