@@ -14,7 +14,7 @@ tags:
 ---
 
 <ul>
- <li> <a href="https://fum-cs.github.io/data-minig/">Data Mining</a>, Spring 2025</li>
+ <li> <a href="https://fum-cs.github.io/data-mining/">Data Mining</a>, Spring 2025</li>
  <li> <a href="https://fum-cs.github.io/learning-theory/">Learning Theory</a>, Spring 2025</li>
   <ul>
   <li><a href="https://fum-cs.github.io/neural-networks/">Neural Networks</a></li>
