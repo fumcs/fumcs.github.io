@@ -25,7 +25,6 @@ tags:
  <li> <a href="https://fum-cs.github.io/modern-cpp/">Modern C++</a></li>
  </ul> 
   <li> <a href="https://fum-cs.github.io/dl/">Deep Learning Course</a>, Fall 2024,2025</li>
- <li><a href="https://fum-cs.github.io/mfds/">Mathematical Foundations of Data Science</a>, Fall 2024</li>
   <li> <a href="https://fum-cs.github.io/fds/">Foundations of Data Science</a>, Fall 2023</li>
  <li> <a href="https://fum-cs.github.io/cs-bsc-dm/">Data Mining</a>, Spring 2023</li>
  <li> <a href="https://fum-cs.github.io/cw2/">Computer Workshop II</a>, Fall 2023</li>
